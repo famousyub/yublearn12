@@ -1,0 +1,16 @@
+A) WEB PUSH LIBRARY
+  - Install composer https://getcomposer.org/
+  - Open command prompt or terminal.
+  - Navigate to project folder.
+  - Run "composer require minishlink/web-push".
+  - Library will be downloaded into "vendor/" folder.
+
+B1) PHP OPEN SSL EXTENSION (LINUX)
+  - sudo apt-get install openssl
+  - php -i | grep -i openssl.
+
+B2) PHP OPEN SSL EXTENSION (WINDOWS)
+  - Open php.ini, enable extension=php_openssl.dll
+  - If it is not available, you need to find another package that comes with OpenSSL. Try XAMPP.
+  - Hit "start" > Search for "system environment" > "Edit the system environment variables" > "Environment variables" > Add a new variable under "system"
+  - Enter the name "OPENSSL_CONF", and point the value to the openssl.cnf file. By default, openssl.cnf is located at "C:\xampp\php\extras\openssl\openssl.cnf".
